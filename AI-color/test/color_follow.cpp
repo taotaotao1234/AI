@@ -207,8 +207,8 @@ int main( int argc, const char** argv )
             bitwise_not(roi, roi);
         }
 
-        imshow( "CamShift Demo", image );
-        imshow( "Histogram", histimg );
+//        imshow( "CamShift Demo", image );
+//        imshow( "Histogram", histimg );
 
         char c = (char)waitKey(10);
         if( c == 27 )
